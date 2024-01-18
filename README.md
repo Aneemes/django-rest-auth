@@ -1,14 +1,11 @@
 # Django REST Framework User Authentication
 
----
-
 ## Overview
 
 This Django project provides user authentication functionalities using popular packages such as django-allauth, dj-rest-auth, and djangorestframework. It includes features for login, registration, password reset, password change, email verification, and social media logins (Google, Facebook, GitHub).
 
 ## Features
 
----
 
 ### Login & Registration:
 
