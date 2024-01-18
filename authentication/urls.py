@@ -29,10 +29,10 @@ urlpatterns = [
         name="password_reset_confirm",
     ),
     path("password/reset/confirm/", PasswordResetConfirmView.as_view(), name="password_reset_confirm"),
-    path("signup/", signup, name="socialaccount_signup"),
-    path("google/", GoogleLogin.as_view(), name="google_login"),
-    path("facebook/", FacebookLogin.as_view(), name="facebook_login"),
-    path("github/", GithubLogin.as_view(), name="github_login"),
+    path("social/signup/", signup, name="socialaccount_signup"),
+    path("social/google/", GoogleLogin.as_view(), name="google_login"),
+    path("social/facebook/", FacebookLogin.as_view(), name="facebook_login"),
+    path("social/github/", GithubLogin.as_view(), name="github_login"),
 ]
 
 
