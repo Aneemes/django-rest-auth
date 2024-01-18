@@ -1,0 +1,5 @@
+Django==4.2
+djangorestframework==3.14.0
+django-allauth==0.60.1
+dj-rest-auth==5.0.2
+python-dotenv==1.0.0
